@@ -1,0 +1,19 @@
+{
+  "name": "@nafuzi/study-fe-framework",
+  "version": "1.0.1",
+  "workspaces": [
+    "packages/compiler",
+    "packages/loader",
+    "packages/runtime"
+  ],
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples/ -bg"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "frontend",
+    "framework"
+  ],
+  "license": "MIT"
+}
